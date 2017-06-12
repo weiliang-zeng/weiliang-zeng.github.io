@@ -14,7 +14,6 @@
 <td id="layout-menu">
 <div class="menu-category">Contents</div>
 <div class="menu-item"><a href="index.html">Home</a></div>
-<div class="menu-item"><a href="research.html">Research</a></div>
 <div class="menu-item"><a href="publication.html">Publications</a></div>
 <div class="menu-item"><a href="software.html" class="current">Software</a></div>
 <div class="menu-item"><a href="contact.html">Contact</a></div>
@@ -24,15 +23,15 @@
    <link rel="shortcut icon" href="img/favicon.ico" ></HEAD>
 <h2>Software</h2>
 <p>The codes provided here can be used directly for Windows 64-bit and Linux 64-bit platforms. For other platforms, you need to compile the C/C++ codes in the package first to make sure they can be used with Matlab. Details and commands can be found in the README file of each software package.</p>
-<p>Please feel free to report <a href="mailto:zengwe@mst.edu">bugs</a>!</p>
+<p>Please feel free to report <a href="mailto:willie.zeng@gmail.com">bugs</a>!</p>
 <h2>Approximation of Mutual Information (MI)</h2>
 <p>Calculate the MI for MIMO channels with finite-alphbet inputs could be difficult. The multiple integrals embedded in need to be carefully treated else there is no luck converging to the correct value. The calculation of the MI could also be slow. If Monte-Carlo method is used, lots of samples are required to obtain the desired accuracy.</p>
 <p>We solve this problem by deriving a lower bound that has no integrals and therefore demands low computational effort. The lower bound approximates, with a constant shift, the MI for various settings. Details can be found in the following publication:</p>
 <p>[1] <b>W. Zeng</b>, C. Xiao, and J. Lu, &ldquo;A Low-Complexity Design of Linear Precoding for MIMO Channels with Finite-Alphabet Inputs,&rdquo; <i>IEEE Wireless Commun. Letters</i>, vol. 1, no. 1, pp. 38-41, Feb. 2012. </p>
 <p>The Matlab codes (mixed with C++ by mex function) comparing the MI and the proposed approximation can be found here:</p>
-<p>Download <a href="https://sites.google.com/site/weiliangwillzeng/software/Example_Fig1_Zeng2011WCL.zip?attredirects=0&amp;d=1">Example_Fig1_Zeng2011WCL</a>, which will generate Fig. 1 of Reference [1]:</p>
+<p>Download <a href="download/Example_Fig1_Zeng2011WCL.zip">codes</a>, which will generate Fig. 1 of Reference [1]:</p>
 <table class="imgtable"><tr><td>
-<img src="https://sites.google.com/site/weiliangwillzeng/software/Example_Fig1_Zeng2011WCL.png" alt="Example_Fig1_Zeng2011WCL" width="450px" />&nbsp;</td>
+<img src="download/Example_Fig1_Zeng2011WCL.png" alt="Example_Fig1_Zeng2011WCL" width="450px" />&nbsp;</td>
 <td align="left"></td></tr></table>
 <p>If you find this idea is useful, you can cite it using the following BibTeX entry:</p>
 <div class="codeblock">
@@ -52,9 +51,9 @@
 <p>Calculate the AMI for statistical CSI is even more difficult than MI because we need to average the MI over the fading channels. We develop the lower bound and also the approximation for doubly correlation MIMO channels. Details can be found in the following publication:</p>
 <p>[2] <b>W. Zeng</b>, C. Xiao, M. Wang, and J. Lu, &ldquo;Linear Precoding for Finite-Alphabet Inputs Over MIMO Fading Channels With Statistical CSI,&rdquo; <i>IEEE Trans. Signal Process.</i>, vol. 60, no. 6, pp. 3134-3148, Jun. 2012.</p>
 <p>The Matlab codes (mixed with C++ by mex function) comparing the AMI and the proposed approximation can be found here:</p>
-<p>Download <a href="https://sites.google.com/site/weiliangwillzeng/software/Example_Fig2_Zeng2012TSP.zip?attredirects=0&amp;d=1">Example_Fig2_Zeng2012TSP</a>, which will generate Fig. 2 of Reference [2]:</p>
+<p>Download <a href="download/Example_Fig2_Zeng2012TSP.zip">codes</a>, which will generate Fig. 2 of Reference [2]:</p>
 <table class="imgtable"><tr><td>
-<img src="https://sites.google.com/site/weiliangwillzeng/software/Example_Fig2_Zeng2012TSP.png" alt="Example_Fig1_Zeng2011WCL" width="450px" />&nbsp;</td>
+<img src="download/Example_Fig2_Zeng2012TSP.png" alt="Example_Fig1_Zeng2011WCL" width="450px" />&nbsp;</td>
 <td align="left"></td></tr></table>
 <p>If you find the idea is useful, you can cite it using the following BibTeX entry:</p>
 <div class="codeblock">
