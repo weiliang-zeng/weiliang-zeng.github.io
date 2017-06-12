@@ -13,7 +13,7 @@
    height="78.046875"
    id="svg2"
    version="1.1"
-   inkscape:version="0.47 r22583"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="z.svg">
   <defs
      id="defs4">
@@ -32,16 +32,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="-54.654952"
-     inkscape:cy="4.9541228"
+     inkscape:zoom="7.919596"
+     inkscape:cx="5.0514238"
+     inkscape:cy="42.808075"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="838"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:window-width="1794"
+     inkscape:window-height="1051"
+     inkscape:window-x="117"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata7">
@@ -62,14 +62,15 @@
      transform="translate(-150.6741,-206.94589)">
     <text
        xml:space="preserve"
-       style="font-size:144px;font-style:normal;font-weight:normal;fill:#581967;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
-       x="157.14285"
-       y="275.21933"
-       id="text2816"><tspan
+       style="font-style:normal;font-weight:normal;font-size:89.02359772px;font-family:'Bitstream Vera Sans';fill:#581967;fill-opacity:1;stroke:none"
+       x="180.69865"
+       y="250.67429"
+       id="text2816"
+       transform="scale(0.94561126,1.057517)"><tspan
          sodipodi:role="line"
          id="tspan2818"
-         x="157.14285"
-         y="275.21933"
-         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#581967;fill-opacity:1;font-family:Viner Hand ITC;-inkscape-font-specification:Viner Hand ITC">z</tspan></text>
+         x="180.69865"
+         y="250.67429"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:89.02359772px;font-family:'Viner Hand ITC';-inkscape-font-specification:'Viner Hand ITC';fill:#581967;fill-opacity:1">z</tspan></text>
   </g>
 </svg>
