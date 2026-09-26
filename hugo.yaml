@@ -69,7 +69,10 @@ params:
     disableSearch: true
     stickyNavBar:
       enable: true
-      showOnScrollUp: true
+      # false = stays pinned any time you're scrolled past the top, not just
+      # for an instant while actively scrolling upward (which is what
+      # `true` actually does here -- it hides again the moment you stop).
+      showOnScrollUp: false
     menus:
       disableAbout: false
       disableExperience: false
