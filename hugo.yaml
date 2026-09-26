@@ -1,0 +1,256 @@
+baseURL: "https://weiliang-zeng.github.io/"
+locale: "en-us"
+title: "Weiliang Will Zeng, Ph.D."
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 10
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      passthrough:
+        enable: true
+        delimiters:
+          inline: [['\(', '\)']]
+          block: [['\[', '\]'], ['$$', '$$']]
+
+menu:
+  main:
+    - identifier: publications
+      name: Publications
+      title: Publications
+      url: /publications/
+      weight: 1
+
+params:
+  title: "Weiliang Will Zeng, Ph.D."
+  description: "Personal homepage of Weiliang Will Zeng, Ph.D. -- Sr Staff System Engineer, Qualcomm AI Research."
+  favicon: "/favicon.ico"
+  useBootstrapCDN: false
+  # Enable per-page with `mathjax: true` in front matter if a page needs equations.
+  mathjax: false
+  animate: true
+
+  navbar:
+    align: ms-auto
+    brandName: "Weiliang Will Zeng"
+    disableSearch: true
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: true
+      disableContact: false
+
+  hero:
+    enable: true
+    intro: "Hi, I'm"
+    title: "Weiliang Will Zeng, Ph.D."
+    subtitle: "Sr Staff System Engineer, Qualcomm AI Research"
+    content: "He works on aggressive research programs to enable the intelligent edge that serves billions of users, coordinating novel technology in machine learning, information theory, signal processing, and wireless communications."
+    image: /images/weiliang.jpg
+    roundImage: true
+    bottomImage:
+      enable: false
+    button:
+      enable: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fa fa-envelope
+          url: mailto:willie.zeng@gmail.com
+          tooltip: Email
+        - icon: fa-solid fa-graduation-cap
+          url: https://scholar.google.com/citations?user=B_fh4ioAAAAJ
+          tooltip: Google Scholar
+
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/weiliang.jpg"
+    content: |-
+      Weiliang Will Zeng is with [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-research), San Diego, CA, where he is now a Sr Staff System Engineer. He received his Ph.D. degree from the [Department of Electronic Engineering](http://www.ee.tsinghua.edu.cn/), [Tsinghua University](http://www.tsinghua.edu.cn), Beijing, China, in 2012 and his B.S. degree in electronic engineering from the [University of Electronic Science and Technology of China (UESTC)](http://www.uestc.edu.cn), Chengdu, China, in 2007, both with the highest honor. He was a Research Scholar (2009-2011) and a Post-Doctoral Fellow (2013-2014) at [Missouri University of Science and Technology](http://www.mst.edu) (formerly University of Missouri, Rolla, MO). His research interests include machine learning, optimization, wireless communications, information theory, signal processing, as well as for emerging technologies.
+
+      He was the recipient of QualStar(s) from Qualcomm Incorporated, the scholarship award for Excellent Doctoral Student from Ministry of Education of China, Distinguished Honor Graduate from Beijing Municipal Commission of Education, and also the First-Class Scholarship for graduate students from Tsinghua University. He is a frequent author and reviewer for IEEE journals/conferences, TPC Co-chair for IEEE Globecom'17, and TPC member for various IEEE flagship conferences.
+
+      At Qualcomm, Dr. Zeng works on aggressive research programs to enable the intelligent edge that serves billions of users using an unprecedented multidisciplinary approach coordinating novel technology developed in machine learning, information theory, signal processing, and wireless communications.
+    skills:
+      enable: true
+      title: "Research Interests:"
+      items:
+        - "Machine Learning"
+        - "Modeling, Analysis, Design & Optimization"
+        - "Wireless Communications"
+        - "Information Theory"
+        - "Signal Processing"
+
+  experience:
+    enable: true
+    items:
+      - company: "Qualcomm AI Research"
+        companyUrl: "https://www.qualcomm.com/research/artificial-intelligence/ai-research"
+        jobs:
+          - name: "Sr Staff System Engineer"
+            date: "Dec. 2014 - present"
+            content: |-
+              - **AI Research**: contribute to enabling the intelligent edge that serves billions of users
+                - Design state-of-the-art artificial intelligence algorithms to make the intelligent edge become smaller, run faster, consume less power, and be able to learn continuously in the real world
+              - **5G+AI**: contribute to the establishment of the first ML for wireless project in Qualcomm
+                - Enabling AI to improve the performance of the world's most advanced wireless systems
+                - Cutting-edge research and development that influences the design and architecture for wireless technology
+                - Invented 5G+AI algorithm commercialized in Qualcomm product defining the next-generation
+              - **AI-enabled air interface**
+                - LTE/5G and beyond: contribute to the global leading position of wireless research and development in Qualcomm
+                - Diverse experience in cutting-edge research, innovative algorithms, link-level study, fixed-point design, standards, patent contributions, and prototyping/product/commercialization
+                - One of the key system contributors to Qualcomm's CoMP Spectrum Sharing technology, showcased at MWC'18 and MWC'19 and highlighted as one of the technologies for unlocking the full potential of 5G
+      - company: "Missouri University of Science and Technology"
+        companyUrl: "http://www.mst.edu"
+        jobs:
+          - name: "Post Doctoral Fellow"
+            date: "Feb. 2013 - Dec. 2014"
+            info:
+              content: "Dept. of Electrical and Computer Engineering, Rolla, MO, US"
+            content: |-
+              - Adviser: Prof. [Chengshan Xiao](https://www.lehigh.edu/~xiaoc)
+              - Research Topic: Transceiver design for multiple antennas, MIMO-OFDM, 4G LTE, cognitive radio, and energy harvesting networks
+          - name: "Research Scholar"
+            date: "Aug. 2009 - Aug. 2011"
+            info:
+              content: "Dept. of Electrical and Computer Engineering, Rolla, MO, US"
+            content: |-
+              - Adviser: Prof. [Chengshan Xiao](https://www.lehigh.edu/~xiaoc)
+              - Research Topic: Adaptive transmission for practical systems with finite-alphabet inputs; capacity analysis; precoding for MIMO systems; practical design for MIMO-OFDM systems
+              - Achievement: Invented algorithms provide significant performance gain for practical MIMO systems and are successfully implemented for technical field trials.
+
+  education:
+    enable: true
+    index: false
+    items:
+      - title: "Ph.D., Electronic Engineering"
+        school:
+          name: "Tsinghua University"
+          url: "http://www.tsinghua.edu.cn"
+        date: "2007 - 2012"
+        GPA: "88/100"
+        content: |-
+          - Adviser: [Prof. Jianhua Lu](https://ieeexplore.ieee.org/author/37278637500)
+          - Graduated with the highest honor
+          - Thesis: Precoded Modulation for Wideband Wireless Communications
+          - Published 6 IEEE Journal papers and 10 IEEE Conference papers; held 4 patents
+        featuredLink:
+          enable: true
+          name: "Thesis (see Publications)"
+          url: "/publications/#thesis"
+      - title: "B.S., Electronic Engineering"
+        school:
+          name: "University of Electronic Science and Technology of China (UESTC)"
+          url: "http://www.uestc.edu.cn"
+        date: "2003 - 2007"
+        GPA: "3.8/4.0"
+        content: |-
+          - Graduated with the highest honor
+          - Ranking: top 0.2%; granted admission to Tsinghua University for Ph.D. study without national standardized test
+          - Thesis: Algorithm design, performance analysis, and hardware implementation for phase lock loop systems
+
+  achievements:
+    enable: false
+
+  projects:
+    enable: true
+    title: "Software"
+    items:
+      - title: "Approximation of Mutual Information (MI)"
+        content: |-
+          Calculating the MI for MIMO channels with finite-alphabet inputs can be difficult -- the embedded multiple integrals are hard to converge correctly, and Monte-Carlo estimation is slow. This code derives a lower bound with no integrals and low computational effort, approximating the MI (with a constant shift) across settings. Details in: W. Zeng, C. Xiao, and J. Lu, "A Low-Complexity Design of Linear Precoding for MIMO Channels with Finite-Alphabet Inputs," *IEEE Wireless Commun. Letters*, vol. 1, no. 1, pp. 38-41, Feb. 2012.
+
+          ```bibtex
+          @ARTICLE{Zeng2012WCL,
+            author = {W. Zeng and C. Xiao and J. Lu},
+            title = {A Low-Complexity Design of Linear Precoding for {MIMO} Channels with Finite-Alphabet Inputs},
+            journal = {IEEE Wireless Commun Letters},
+            year = {2012},
+            volume = {1},
+            pages = {38-41},
+            number = {1},
+            month = {Feb.},
+          }
+          ```
+        image: /images/projects/mi-approximation.png
+        badges:
+          - "MATLAB"
+          - "C++ (mex)"
+        links:
+          - icon: fa fa-download
+            url: /download/Example_Fig1_Zeng2011WCL.zip
+          - icon: fa fa-file-pdf
+            url: https://dx.doi.org/10.1109/WCL.2012.121411.110025
+          - icon: fa fa-envelope
+            url: mailto:willie.zeng@gmail.com?subject=Bug%20report
+      - title: "Approximation of Average Mutual Information (AMI)"
+        content: |-
+          Calculating the AMI under statistical CSI is even harder than MI, since it also averages over the fading channel. This code develops the lower bound and approximation for doubly-correlated MIMO channels. Details in: W. Zeng, C. Xiao, M. Wang, and J. Lu, "Linear Precoding for Finite-Alphabet Inputs Over MIMO Fading Channels With Statistical CSI," *IEEE Trans. Signal Process.*, vol. 60, no. 6, pp. 3134-3148, Jun. 2012.
+
+          ```bibtex
+          @ARTICLE{Zeng2012TSP,
+            author = {W. Zeng and C. Xiao and M. Wang and J. Lu},
+            title = {Linear Precoding for Finite-Alphabet Inputs over {MIMO} Fading Channels with Statistical {CSI}},
+            journal = {IEEE Trans. Signal Process.},
+            year = {2012},
+            volume = {60},
+            pages = {3134-3148},
+            number = {6},
+            month = {Jun.},
+          }
+          ```
+        image: /images/projects/ami-approximation.png
+        badges:
+          - "MATLAB"
+          - "C++ (mex)"
+        links:
+          - icon: fa fa-download
+            url: /download/Example_Fig2_Zeng2012TSP.zip
+          - icon: fa fa-file-pdf
+            url: https://dx.doi.org/10.1109/TSP.2012.2188717
+          - icon: fa fa-envelope
+            url: mailto:willie.zeng@gmail.com?subject=Bug%20report
+
+  contact:
+    enable: true
+    title: "Contact"
+    content: |-
+      Feel free to reach out by email, or scan the QR code below to add my contact info to your phone.
+
+      ![QR code](/images/qrcode.png)
+    btnName: "Email me"
+    btnLink: "mailto:willie.zeng@gmail.com"
+
+  footer:
+    recentPosts:
+      enable: false
+
+  listPages:
+    disableFeaturedImage: true
+
+  singlePages:
+    socialShare: false
+    readTime:
+      enable: false
+    scrollprogress:
+      enable: false

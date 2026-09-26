@@ -1,0 +1,14 @@
+{{ define "head" }}
+<meta name="description" content={{ .Site.Params.description }}>
+{{ end }}
+
+{{ define "title" }}
+{{ .Site.Params.terms.pageNotFound | default (i18n "page_not_found") }} | {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+<div class="container py-5 text-center">
+    <img src="{{ (printf "%s404.png" (.Site.Params.staticPath | default "")) | relURL }}" alt='{{ .Site.Params.terms.pageNotFound | default (i18n "page_not_found") }}' class="img-fluid" width="40%">
+    <h1>{{ .Site.Params.terms.pageNotFound | default (i18n "page_not_found") }}</h1>
+</div>
+{{ end }}

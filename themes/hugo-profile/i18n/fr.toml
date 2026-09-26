@@ -1,0 +1,77 @@
+# Navigation
+[nav_about]
+other = "À propos"
+
+[nav_experience]
+other = "Expérience"
+
+[nav_education]
+other = "Éducation"
+
+[nav_projects]
+other = "Projets"
+
+[nav_achievements]
+other = "Réalisations"
+
+[nav_contact]
+other = "Contact"
+
+[search_placeholder]
+other = "Rechercher..."
+
+# Sections
+[about]
+other = "À Propos de Moi"
+
+[experience]
+other = "Expérience"
+
+[education]
+other = "Éducation"
+
+[projects]
+other = "Projets"
+
+[achievements]
+other = "Réalisations"
+
+[contact]
+other = "Contactez-moi"
+
+# Contact form
+[contact_email_placeholder]
+other = "Entrez votre e-mail"
+
+[contact_message_placeholder]
+other = "Entrez votre message"
+
+# Footer
+[recent_posts]
+other = "Articles Récents"
+
+# Common terms
+[read]
+other = "Lire"
+
+[toc]
+other = "Table des Matières"
+
+[tags]
+other = "Étiquettes"
+
+[social]
+other = "Réseaux Sociaux"
+
+[copyright]
+other = "Tous droits réservés"
+
+[email_text]
+other = "Découvrez ce site"
+
+[page_not_found]
+other = "Page non trouvée"
+
+# Date formats
+[min_read]
+other = "min de lecture"

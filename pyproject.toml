@@ -1,0 +1,12 @@
+[project]
+name = "weiliang-zeng-site-tools"
+version = "0.1.0"
+description = "Helper scripts for maintaining the weiliang-zeng.github.io Hugo site (link checking, future content migrations, etc.)"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+]
+
+[tool.uv]
+# .venv lives inside this project folder (self-contained), but is excluded
+# from Dropbox sync -- see README.md "Python tooling" section.

@@ -1,0 +1,8 @@
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Python tooling (uv) -- kept out of git AND out of Dropbox sync (see .venv note in README)
+.venv/
+__pycache__/
+*.pyc
