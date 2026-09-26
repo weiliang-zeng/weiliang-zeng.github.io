@@ -45,6 +45,24 @@ params:
   mathjax: false
   animate: true
 
+  # Purple palette (a nod to Tsinghua purple).
+  color:
+    textColor: "#2b2130"
+    secondaryTextColor: "#6c5b7b"
+    textLinkColor: "#6a1b9a"
+    backgroundColor: "#faf8fc"
+    secondaryBackgroundColor: "#f1e9f7"
+    primaryColor: "#6a1b9a"
+    secondaryColor: "#f1e9f7"
+    darkmode:
+      textColor: "#ece6f0"
+      secondaryTextColor: "#c9b8d6"
+      textLinkColor: "#c77dff"
+      backgroundColor: "#1a1425"
+      secondaryBackgroundColor: "#241b30"
+      primaryColor: "#c77dff"
+      secondaryColor: "#241b30"
+
   navbar:
     align: ms-auto
     brandName: "Weiliang Will Zeng"
@@ -80,6 +98,9 @@ params:
         - icon: fa-solid fa-graduation-cap
           url: https://scholar.google.com/citations?user=B_fh4ioAAAAJ
           tooltip: Google Scholar
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/weiliang-will-zeng-81221317/
+          tooltip: LinkedIn
 
   about:
     enable: true

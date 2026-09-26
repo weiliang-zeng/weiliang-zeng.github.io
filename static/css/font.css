@@ -1,0 +1,13 @@
+/* Override of themes/hugo-profile/static/css/font.css.
+   The theme mixes three families (Lora serif for body, Alata sans for
+   "primary-font" elements like the hero name/title, Roboto for
+   "default-font") which reads as inconsistent across sections. Standardize
+   on one family everywhere -- Roboto is already loaded via the theme's
+   Google Fonts link, so this needs no extra network request. */
+
+body,
+.secondary-font, #secondary-font,
+.primary-font, #primary-font,
+.default-font, #default-font {
+    font-family: "Roboto", sans-serif !important;
+}
