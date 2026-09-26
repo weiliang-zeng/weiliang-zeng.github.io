@@ -13,3 +13,11 @@
 #hero h2 {
     font-size: clamp(18px, 2.2vw, 26px);
 }
+
+/* Theme's #about ul is a 2-column grid with each column capped at
+   140-200px, sized for short one-word tags like "HTML"/"CSS". Our
+   Research Interests are full phrases, so they were folding awkwardly
+   inside that narrow column. Single full-width column instead. */
+#about ul {
+    display: block;
+}
