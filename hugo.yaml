@@ -275,3 +275,7 @@ params:
       enable: false
     scrollprogress:
       enable: false
+
+  customScripts: |-
+    <link rel="stylesheet" href="/css/custom.css">
+
