@@ -90,7 +90,7 @@ params:
     intro: "Hi, I'm"
     title: "Weiliang Will Zeng, Ph.D."
     subtitle: "Sr Staff System Engineer/Manager, Qualcomm AI Research"
-    content: "I work on making generative AI efficient enough to run on real devices -- LLM/VLM/LVM model quantization, ML compiler optimization, and neural scheduling -- so state-of-the-art AI can run faster, smaller, and cheaper at the edge."
+    content: "I am working on making generative AI efficient enough to run on real devices -- LLM/VLM/LVM model quantization, MoE inference, code generation with efficient test-time-scaling, ML compiler optimization, and neural scheduling -- so state-of-the-art AI can run faster, smaller, and cheaper at the edge."
     image: /images/weiliang.jpg
     roundImage: true
     bottomImage:
@@ -147,7 +147,8 @@ params:
               - **ML Compiler & Scheduling Optimization**: patents and publications on scheduling and optimizing ML compute graphs
                 - Neural DAG scheduling via one-shot priority sampling (ICLR 2023) and neural topological ordering (NeurIPS 2022)
                 - Patents on distributed ML compiler optimization, node symmetry optimization, and scheduling in sequence space
-              - **Earlier at Qualcomm**: contributed to the first ML-for-wireless project (5G+AI), including a commercialized 5G+AI algorithm and Qualcomm's CoMP Spectrum Sharing technology, showcased at MWC'18 and MWC'19
+              - **Earlier at Qualcomm -- 5G+AI**: invented a 5G+AI algorithm, commercialized in a Qualcomm product, as part of the company's first ML-for-wireless project
+              - **Earlier at Qualcomm -- CoMP Spectrum Sharing**: contributed to Qualcomm's CoMP Spectrum Sharing technology, showcased at MWC'18 and MWC'19
       - company: "Missouri University of Science and Technology"
         companyUrl: "http://www.mst.edu"
         jobs:
