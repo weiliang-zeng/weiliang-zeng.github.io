@@ -82,7 +82,7 @@ params:
       disableExperience: false
       disableEducation: false
       disableProjects: false
-      disableAchievements: true
+      disableAchievements: false
       disableContact: false
 
   hero:
@@ -90,7 +90,7 @@ params:
     intro: "Hi, I'm"
     title: "Weiliang Will Zeng, Ph.D."
     subtitle: "Sr Staff System Engineer/Manager, Qualcomm AI Research"
-    content: "I am working on aggressive research programs to enable the intelligent edge that serves billions of users, using an unprecedented multidisciplinary approach across Generative AI, efficient model inference, information theory, signal processing, and optimization algorithms."
+    content: "I work on making generative AI efficient enough to run on real devices -- LLM/VLM model quantization, ML compiler optimization, and neural scheduling -- so state-of-the-art AI can run faster, smaller, and cheaper at the edge."
     image: /images/weiliang.jpg
     roundImage: true
     bottomImage:
@@ -122,11 +122,12 @@ params:
       enable: true
       title: "Research Interests:"
       items:
-        - "Generative AI"
-        - "Efficient Model Inference"
+        - "Generative AI (LLM/VLM)"
+        - "Model Quantization"
+        - "ML Compiler Optimization"
+        - "Neural Scheduling"
         - "Information Theory"
         - "Signal Processing"
-        - "Optimization Algorithms"
 
   experience:
     enable: true
@@ -137,16 +138,17 @@ params:
           - name: "Sr Staff System Engineer/Manager"
             date: "Dec. 2014 - present"
             content: |-
-              - **AI Research**: contribute to enabling the intelligent edge that serves billions of users
-                - Design state-of-the-art artificial intelligence algorithms to make the intelligent edge become smaller, run faster, consume less power, and be able to learn continuously in the real world
-              - **5G+AI**: contribute to the establishment of the first ML for wireless project in Qualcomm
-                - Enabling AI to improve the performance of the world's most advanced wireless systems
-                - Cutting-edge research and development that influences the design and architecture for wireless technology
-                - Invented 5G+AI algorithm commercialized in Qualcomm product defining the next-generation
-              - **AI-enabled air interface**
-                - LTE/5G and beyond: contribute to the global leading position of wireless research and development in Qualcomm
-                - Diverse experience in cutting-edge research, innovative algorithms, link-level study, fixed-point design, standards, patent contributions, and prototyping/product/commercialization
-                - One of the key system contributors to Qualcomm's CoMP Spectrum Sharing technology, showcased at MWC'18 and MWC'19 and highlighted as one of the technologies for unlocking the full potential of 5G
+              - **Generative AI & LLM/VLM Efficiency**: research and engineering to make large language and vision-language models efficient enough to run at the edge
+                - Co-authored "How Efficient is LLM-Generated Code? A Rigorous & High-Standard Benchmark" (ICLR 2025)
+                - Patents on ML-based code generation systems
+              - **Model Quantization**: quantization and mixed-precision techniques for diffusion and language models
+                - FineAMP: optimization-based automatic mixed-precision quantization for efficient diffusion model inference (OPT 2025, NeurIPS workshop)
+                - Multiplication-only matrix inversion approximation for quantized Gated DeltaNet models (2026)
+              - **ML Compiler & Scheduling Optimization**: patents and publications on scheduling and optimizing ML compute graphs
+                - Neural DAG scheduling via one-shot priority sampling (ICLR 2023) and neural topological ordering (NeurIPS 2022)
+                - Patents on distributed ML compiler optimization, node symmetry optimization, and scheduling in sequence space
+              - **On-Device GenAI**: Neodragon -- mobile video generation using diffusion transformers (ICLR 2026)
+              - **Earlier at Qualcomm**: contributed to the first ML-for-wireless project (5G+AI), including a commercialized 5G+AI algorithm and Qualcomm's CoMP Spectrum Sharing technology, showcased at MWC'18 and MWC'19
       - company: "Missouri University of Science and Technology"
         companyUrl: "http://www.mst.edu"
         jobs:
@@ -208,7 +210,24 @@ params:
           - Thesis: Algorithm design, performance analysis, and hardware implementation for phase lock loop systems
 
   achievements:
-    enable: false
+    enable: true
+    title: "Selected Recent Work"
+    # Links point at /publications/ for now (safe, no guessing at exact
+    # arXiv/OpenReview URLs) -- tighten to deep-link once the Publications
+    # page is synced with the full Scholar BibTeX export.
+    items:
+      - title: "How Efficient is LLM-Generated Code?"
+        content: "A rigorous & high-standard benchmark -- *ICLR 2025*"
+        url: "/publications/"
+      - title: "FineAMP"
+        content: "Optimization-based automatic mixed-precision quantization for efficient diffusion model inference -- *OPT 2025, NeurIPS Workshop*"
+        url: "/publications/"
+      - title: "Neodragon"
+        content: "Mobile video generation using diffusion transformers -- *ICLR 2026*"
+        url: "/publications/"
+      - title: "Quantized Gated DeltaNet"
+        content: "Multiplication-only matrix inversion approximation for quantized models -- *2026*"
+        url: "/publications/"
 
   projects:
     enable: true
