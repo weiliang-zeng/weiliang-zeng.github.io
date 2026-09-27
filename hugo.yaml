@@ -65,7 +65,7 @@ params:
 
   navbar:
     align: ms-auto
-    brandName: "W. Zeng"
+    brandName: "  W. Zeng"
     disableSearch: true
     stickyNavBar:
       enable: true
