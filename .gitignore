@@ -2,6 +2,10 @@ public/
 resources/_gen/
 .hugo_build.lock
 
+# Raw uploaded source photos -- the processed/cropped version that's
+# actually used lives in static/images/ and is tracked normally.
+bussiness photo Zeng.png
+
 # Python tooling (uv) -- kept out of git AND out of Dropbox sync (see .venv note in README)
 .venv/
 __pycache__/
