@@ -147,8 +147,9 @@ params:
               - **ML Compiler & Scheduling Optimization**: patents and publications on scheduling and optimizing ML compute graphs
                 - Neural DAG scheduling via one-shot priority sampling (ICLR 2023) and neural topological ordering (NeurIPS 2022)
                 - Patents on distributed ML compiler optimization, node symmetry optimization, and scheduling in sequence space
-              - **Earlier at Qualcomm -- 5G+AI**: invented a 5G+AI algorithm, commercialized in a Qualcomm product, as part of the company's first ML-for-wireless project
-              - **Earlier at Qualcomm -- CoMP Spectrum Sharing**: contributed to Qualcomm's CoMP Spectrum Sharing technology, showcased at MWC'18 and MWC'19
+              - **Earlier at Qualcomm**
+                - Invented a 5G+AI algorithm, commercialized in a Qualcomm product, as part of the company's first ML-for-wireless project
+                - Contributed to Qualcomm's CoMP Spectrum Sharing technology, showcased at MWC'18 and MWC'19
       - company: "Missouri University of Science and Technology"
         companyUrl: "http://www.mst.edu"
         jobs:
