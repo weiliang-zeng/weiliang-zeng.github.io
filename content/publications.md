@@ -62,4 +62,4 @@ description: "Publications of Weiliang Will Zeng, Ph.D."
 
 ## Thesis
 
-- Ph.D. Thesis (in Chinese): Precoded Modulation for Wideband Wireless Communications. [Download](https://sites.google.com/site/weiliangwillzeng/publication/Zeng2012Thesis.pdf?attredirects=0&d=1) (PDF, 2.0 MB)
+- Ph.D. Thesis (in Chinese): Precoded Modulation for Wideband Wireless Communications. [Download](/download/Zeng2012Thesis.pdf) (PDF, 2.0 MB)
