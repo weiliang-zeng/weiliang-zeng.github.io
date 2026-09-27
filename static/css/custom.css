@@ -29,3 +29,16 @@
 #experience, #experience * {
     font-family: "Roboto", sans-serif !important;
 }
+
+/* Theme colors every company tab the same regardless of active state
+   (only a bottom-border underline distinguishes the active one). Mute
+   the inactive tabs and make the active one bold + purple, so the
+   current employer stands out clearly against Missouri S&T/Tsinghua. */
+#experience .nav-item .nav-link {
+    color: var(--text-secondary-color) !important;
+}
+
+#experience .nav-item .nav-link.active {
+    color: var(--primary-color) !important;
+    font-weight: 700;
+}
