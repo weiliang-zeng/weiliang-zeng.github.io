@@ -38,7 +38,7 @@ menu:
 
 params:
   title: "Weiliang Will Zeng, Ph.D."
-  description: "Personal homepage of Weiliang Will Zeng, Ph.D. -- Sr Staff System Engineer, Qualcomm AI Research."
+  description: "Personal homepage of Weiliang Will Zeng, Ph.D. -- Sr Staff System Engineer/Manager, Qualcomm AI Research."
   favicon: "/favicon.ico"
   useBootstrapCDN: false
   # Enable per-page with `mathjax: true` in front matter if a page needs equations.
@@ -85,8 +85,8 @@ params:
     enable: true
     intro: "Hi, I'm"
     title: "Weiliang Will Zeng, Ph.D."
-    subtitle: "Sr Staff System Engineer, Qualcomm AI Research"
-    content: "I work on aggressive research programs to enable the intelligent edge that serves billions of users, coordinating novel technology in machine learning, information theory, signal processing, and wireless communications."
+    subtitle: "Sr Staff System Engineer/Manager, Qualcomm AI Research"
+    content: "I work on aggressive research programs to enable the intelligent edge that serves billions of users, with novel technologies in Generative AI, efficient model inference, information theory, signal processing, and optimization algorithms."
     image: /images/weiliang.jpg
     roundImage: true
     bottomImage:
@@ -110,21 +110,20 @@ params:
     title: "About Me"
     image: "/images/weiliang.jpg"
     content: |-
-      I'm with [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-research), San Diego, CA, where I'm now a Sr Staff System Engineer. I received my Ph.D. degree from the [Department of Electronic Engineering](http://www.ee.tsinghua.edu.cn/), [Tsinghua University](http://www.tsinghua.edu.cn), Beijing, China, in 2012 and my B.S. degree in electronic engineering from the [University of Electronic Science and Technology of China (UESTC)](http://www.uestc.edu.cn), Chengdu, China, in 2007, both with the highest honor. I was a Research Scholar (2009-2011) and a Post-Doctoral Fellow (2013-2014) at [Missouri University of Science and Technology](http://www.mst.edu) (formerly University of Missouri, Rolla, MO). My research interests include GenAI, on-device AI, deep learning, optimization, signal processing, and information theory.
+      I'm with [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-research), San Diego, CA, where I'm now a Sr Staff System Engineer. I received my Ph.D. degree from the [Department of Electronic Engineering](http://www.ee.tsinghua.edu.cn/), [Tsinghua University](http://www.tsinghua.edu.cn), Beijing, China, in 2012 and my B.S. degree in electronic engineering from the [University of Electronic Science and Technology of China (UESTC)](http://www.uestc.edu.cn), Chengdu, China, in 2007, both with the highest honor. I was a Research Scholar (2009-2011) and a Post-Doctoral Fellow (2013-2014) at [Missouri University of Science and Technology](http://www.mst.edu) (formerly University of Missouri, Rolla, MO). My research interests include Generative AI, efficient model inference, information theory, signal processing, and optimization algorithms.
 
       I was the recipient of QualStar(s) from Qualcomm Incorporated, the scholarship award for Excellent Doctoral Student from Ministry of Education of China, Distinguished Honor Graduate from Beijing Municipal Commission of Education, and also the First-Class Scholarship for graduate students from Tsinghua University. I'm a frequent author and reviewer for IEEE journals/conferences, TPC Co-chair for IEEE Globecom'17, and TPC member for various IEEE flagship conferences.
 
-      At Qualcomm, I work on aggressive research programs to enable the intelligent edge that serves billions of users using an unprecedented multidisciplinary approach coordinating novel technology developed in machine learning, information theory, signal processing, and wireless communications.
+      At Qualcomm, I work on aggressive research programs to enable the intelligent edge that serves billions of users using an unprecedented multidisciplinary approach coordinating novel technology in Generative AI, efficient model inference, information theory, signal processing, and optimization algorithms.
     skills:
       enable: true
       title: "Research Interests:"
       items:
-        - "GenAI"
-        - "On-Device AI"
-        - "Deep Learning"
-        - "Optimization"
-        - "Signal Processing"
+        - "Generative AI"
+        - "Efficient Model Inference"
         - "Information Theory"
+        - "Signal Processing"
+        - "Optimization Algorithms"
 
   experience:
     enable: true
