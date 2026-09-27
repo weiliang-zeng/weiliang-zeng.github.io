@@ -21,3 +21,11 @@
 #about ul {
     display: block;
 }
+
+/* Belt-and-suspenders on top of font.css: force one family on every
+   element inside Experience (tab labels, job titles, bullets, dates),
+   in case any Bootstrap component in there sets its own font-family
+   instead of inheriting. */
+#experience, #experience * {
+    font-family: "Roboto", sans-serif !important;
+}

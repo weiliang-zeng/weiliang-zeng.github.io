@@ -65,7 +65,7 @@ params:
 
   navbar:
     align: ms-auto
-    brandName: "Weiliang Will Zeng"
+    brandName: "W. Zeng"
     disableSearch: true
     stickyNavBar:
       enable: true
@@ -160,6 +160,17 @@ params:
               - Adviser: Prof. [Chengshan Xiao](https://www.lehigh.edu/~xiaoc)
               - Research Topic: Adaptive transmission for practical systems with finite-alphabet inputs; capacity analysis; precoding for MIMO systems; practical design for MIMO-OFDM systems
               - Achievement: Invented algorithms provide significant performance gain for practical MIMO systems and are successfully implemented for technical field trials.
+      - company: "Tsinghua University"
+        companyUrl: "http://www.tsinghua.edu.cn"
+        jobs:
+          - name: "Research Assistant"
+            date: "Sep. 2007 - Dec. 2012"
+            info:
+              content: "Dept. of Electronic Engineering, Beijing, China"
+            content: |-
+              - Adviser: Prof. [Jianhua Lu](https://ieeexplore.ieee.org/author/37278637500)
+              - Research Topic: Precoded modulation for wideband wireless communications; precoder design for cognitive radio and relay networks with finite-alphabet inputs
+              - Published 6 IEEE Journal papers and 10 IEEE Conference papers during Ph.D. study; held 4 patents
 
   education:
     enable: true
