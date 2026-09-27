@@ -86,7 +86,7 @@ params:
     intro: "Hi, I'm"
     title: "Weiliang Will Zeng, Ph.D."
     subtitle: "Sr Staff System Engineer/Manager, Qualcomm AI Research"
-    content: "I work on aggressive research programs to enable the intelligent edge that serves billions of users, spanning Generative AI, efficient model inference, information theory, signal processing, and optimization algorithms."
+    content: "I work on aggressive research programs to enable the intelligent edge that serves billions of users, using an unprecedented multidisciplinary approach across Generative AI, efficient model inference, information theory, signal processing, and optimization algorithms."
     image: /images/weiliang.jpg
     roundImage: true
     bottomImage:
@@ -113,8 +113,6 @@ params:
       I'm with [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-research), San Diego, CA, where I'm now a Sr Staff System Engineer/Manager. I received my Ph.D. degree from the [Department of Electronic Engineering](http://www.ee.tsinghua.edu.cn/), [Tsinghua University](http://www.tsinghua.edu.cn), Beijing, China, in 2012 and my B.S. degree in electronic engineering from the [University of Electronic Science and Technology of China (UESTC)](http://www.uestc.edu.cn), Chengdu, China, in 2007, both with the highest honor. I was a Research Scholar (2009-2011) and a Post-Doctoral Fellow (2013-2014) at [Missouri University of Science and Technology](http://www.mst.edu) (formerly University of Missouri, Rolla, MO).
 
       I was honored to receive the prestigious Qualcomm IP Achievement Award (AI domain) in 2025, multiple QualStar Awards from Qualcomm, the Excellent Doctoral Student Scholarship from the Ministry of Education of China, the Distinguished Honor Graduate award from the Beijing Municipal Commission of Education, and the First-Class Scholarship for graduate students from Tsinghua University. I'm a frequent author and reviewer for IEEE journals/conferences, TPC Co-chair for IEEE Globecom'17, and TPC member for various IEEE flagship conferences.
-
-      I work on aggressive research programs to enable the intelligent edge that serves billions of users, using an unprecedented multidisciplinary approach to invent novel technology across Generative AI, efficient model inference, information theory, signal processing, and optimization algorithms.
     skills:
       enable: true
       title: "Research Interests:"
