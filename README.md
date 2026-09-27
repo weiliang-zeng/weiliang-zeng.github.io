@@ -5,6 +5,34 @@ Personal homepage of Weiliang Will Zeng, rebuilt in [Hugo](https://gohugo.io/) w
 jemdoc-based setup. Content is authored in plain Markdown / YAML config -- no build step
 beyond running Hugo itself (no npm/Node involved).
 
+## Updating content
+
+1. Edit `hugo.yaml` (bio, experience, education, software, contact) and/or
+   `content/publications.md` (the publications list) -- see "Layout" below for which file
+   covers what.
+2. Preview locally:
+   ```
+   ~/.local/bin/hugo server -D
+   ```
+   Open http://localhost:1313 -- it live-reloads on every save, so keep it running while you
+   edit.
+3. When it looks right:
+   ```
+   git add -A
+   git commit -m "describe the update"
+   git push origin main
+   ```
+4. Check the **Actions** tab on GitHub -- `deploy.yml` builds and publishes automatically.
+   Give it a minute, then reload https://weiliang-zeng.github.io/.
+
+No manual build/copy step, no separate deploy repo -- pushing to `main` is the only publish
+step now.
+
+**If a push breaks the live site**: `git revert <bad-commit>` and push again (fastest), or as
+a last resort fall back to the pre-Hugo site via Settings -> Pages -> Source -> "Deploy from a
+branch" -> `master` (this repo's `master` branch still holds the old jemdoc-built HTML,
+tagged `pre-hugo-migration`, untouched by anything above).
+
 ## Layout
 
 - `hugo.yaml` -- all site config: bio, experience, education, software/projects, contact.
@@ -66,6 +94,6 @@ attr -s user.com.dropbox.ignored -V 1 .venv   # already applied; re-run if .venv
 
 ## Deploying
 
-Push to `main` -- GitHub Actions builds and deploys automatically. See the migration plan
-for the scratch-repo verification step and the cutover procedure before this replaces the
-live site.
+Live since the cutover: pushing to `main` is picked up by `.github/workflows/deploy.yml`,
+which builds with Hugo Extended and publishes to GitHub Pages (Source = "GitHub Actions").
+See "Updating content" above for the day-to-day flow.
