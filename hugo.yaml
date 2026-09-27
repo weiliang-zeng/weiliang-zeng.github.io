@@ -86,7 +86,7 @@ params:
     intro: "Hi, I'm"
     title: "Weiliang Will Zeng, Ph.D."
     subtitle: "Sr Staff System Engineer/Manager, Qualcomm AI Research"
-    content: "I work on aggressive research programs to enable the intelligent edge that serves billions of users, with novel technologies in Generative AI, efficient model inference, information theory, signal processing, and optimization algorithms."
+    content: "I work on aggressive research programs to enable the intelligent edge that serves billions of users, spanning Generative AI, efficient model inference, information theory, signal processing, and optimization algorithms."
     image: /images/weiliang.jpg
     roundImage: true
     bottomImage:
@@ -110,11 +110,11 @@ params:
     title: "About Me"
     image: "/images/weiliang.jpg"
     content: |-
-      I'm with [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-research), San Diego, CA, where I'm now a Sr Staff System Engineer. I received my Ph.D. degree from the [Department of Electronic Engineering](http://www.ee.tsinghua.edu.cn/), [Tsinghua University](http://www.tsinghua.edu.cn), Beijing, China, in 2012 and my B.S. degree in electronic engineering from the [University of Electronic Science and Technology of China (UESTC)](http://www.uestc.edu.cn), Chengdu, China, in 2007, both with the highest honor. I was a Research Scholar (2009-2011) and a Post-Doctoral Fellow (2013-2014) at [Missouri University of Science and Technology](http://www.mst.edu) (formerly University of Missouri, Rolla, MO). My research interests include Generative AI, efficient model inference, information theory, signal processing, and optimization algorithms.
+      I'm with [Qualcomm AI Research](https://www.qualcomm.com/research/artificial-intelligence/ai-research), San Diego, CA, where I'm now a Sr Staff System Engineer/Manager. I received my Ph.D. degree from the [Department of Electronic Engineering](http://www.ee.tsinghua.edu.cn/), [Tsinghua University](http://www.tsinghua.edu.cn), Beijing, China, in 2012 and my B.S. degree in electronic engineering from the [University of Electronic Science and Technology of China (UESTC)](http://www.uestc.edu.cn), Chengdu, China, in 2007, both with the highest honor. I was a Research Scholar (2009-2011) and a Post-Doctoral Fellow (2013-2014) at [Missouri University of Science and Technology](http://www.mst.edu) (formerly University of Missouri, Rolla, MO).
 
-      I was the recipient of QualStar(s) from Qualcomm Incorporated, the scholarship award for Excellent Doctoral Student from Ministry of Education of China, Distinguished Honor Graduate from Beijing Municipal Commission of Education, and also the First-Class Scholarship for graduate students from Tsinghua University. I'm a frequent author and reviewer for IEEE journals/conferences, TPC Co-chair for IEEE Globecom'17, and TPC member for various IEEE flagship conferences.
+      I was honored to receive the prestigious Qualcomm IP Achievement Award (AI domain) in 2025, multiple QualStar Awards from Qualcomm, the Excellent Doctoral Student Scholarship from the Ministry of Education of China, the Distinguished Honor Graduate award from the Beijing Municipal Commission of Education, and the First-Class Scholarship for graduate students from Tsinghua University. I'm a frequent author and reviewer for IEEE journals/conferences, TPC Co-chair for IEEE Globecom'17, and TPC member for various IEEE flagship conferences.
 
-      At Qualcomm, I work on aggressive research programs to enable the intelligent edge that serves billions of users using an unprecedented multidisciplinary approach coordinating novel technology in Generative AI, efficient model inference, information theory, signal processing, and optimization algorithms.
+      I work on aggressive research programs to enable the intelligent edge that serves billions of users, using an unprecedented multidisciplinary approach to invent novel technology across Generative AI, efficient model inference, information theory, signal processing, and optimization algorithms.
     skills:
       enable: true
       title: "Research Interests:"
@@ -131,7 +131,7 @@ params:
       - company: "Qualcomm AI Research"
         companyUrl: "https://www.qualcomm.com/research/artificial-intelligence/ai-research"
         jobs:
-          - name: "Sr Staff System Engineer"
+          - name: "Sr Staff System Engineer/Manager"
             date: "Dec. 2014 - present"
             content: |-
               - **AI Research**: contribute to enabling the intelligent edge that serves billions of users
@@ -202,7 +202,7 @@ params:
     items:
       - title: "Approximation of Mutual Information (MI)"
         content: |-
-          Calculating the MI for MIMO channels with finite-alphabet inputs can be difficult -- the embedded multiple integrals are hard to converge correctly, and Monte-Carlo estimation is slow. This code derives a lower bound with no integrals and low computational effort, approximating the MI (with a constant shift) across settings.
+          Calculating the MI for MIMO channels with finite-alphabet inputs can be difficult -- the embedded multiple integrals are hard to evaluate accurately, and Monte-Carlo estimation is slow. This code derives a lower bound with no integrals and low computational effort, approximating the MI (with a constant shift) across settings.
 
           Details in: W. Zeng, C. Xiao, and J. Lu, "A Low-Complexity Design of Linear Precoding for MIMO Channels with Finite-Alphabet Inputs," *IEEE Wireless Commun. Letters*, vol. 1, no. 1, pp. 38-41, Feb. 2012.
         image: /images/projects/mi-approximation.png
