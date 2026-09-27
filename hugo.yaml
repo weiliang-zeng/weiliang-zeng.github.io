@@ -125,7 +125,7 @@ params:
         - "Generative AI (LLM/VLM/LVM)"
         - "Model Quantization"
         - "ML Compiler Optimization"
-        - "Neural Scheduling"
+        - "Optimization Algorithms"
         - "Information Theory"
         - "Signal Processing"
 
