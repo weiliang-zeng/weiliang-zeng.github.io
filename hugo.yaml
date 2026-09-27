@@ -141,14 +141,14 @@ params:
               - **Generative AI & LLM/VLM/LVM Efficiency**: research and engineering to make large language, vision-language, and vision models efficient enough to run at the edge
                 - Co-authored "How Efficient is LLM-Generated Code? A Rigorous & High-Standard Benchmark" (ICLR 2025)
                 - Multiplication-only matrix inversion approximation for quantized Gated DeltaNet models (ICLR 2026 Workshop)
-                - Patents on ML-based code generation systems and efficient inference for MoE (Mixture-of-Experts) models
+                - Multiple patents on ML-based code generation systems and efficient inference for MoE (Mixture-of-Experts) models
               - **Model Quantization**: quantization and mixed-precision techniques for diffusion and language models
                 - FineAMP: optimization-based automatic mixed-precision quantization for efficient diffusion model inference (OPT 2025, NeurIPS workshop)
               - **ML Compiler & Scheduling Optimization**: patents and publications on scheduling and optimizing ML compute graphs
                 - Neural DAG scheduling via one-shot priority sampling (ICLR 2023) and neural topological ordering (NeurIPS 2022)
-                - Patents on distributed ML compiler optimization, node symmetry optimization, and scheduling in sequence space
+                - Multiple patents on distributed ML compiler optimization, node symmetry optimization, and scheduling in sequence space
               - **Earlier at Qualcomm**
-                - Invented a 5G+AI algorithm, commercialized in a Qualcomm product, as part of the company's first ML-for-wireless project
+                - 5G+AI: Invented 5G+AI algorithms that were successfully commercialized in Qualcomm modem product, as part of the company's first ML-for-wireless project
                 - Contributed to Qualcomm's CoMP Spectrum Sharing technology, showcased at MWC'18 and MWC'19
       - company: "Missouri University of Science and Technology"
         companyUrl: "http://www.mst.edu"
